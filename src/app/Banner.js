@@ -3,7 +3,7 @@ import Image from 'next/image';
 import bannerImage from "@/assets/banner.png";
 import TextField from '@mui/material/TextField';
 import Button from '@mui/material/Button';
-import bannerShadow from "@/assets/ShadowBanner-01.png";
+import bannerShadow from "@/assets/shadowBanner-01.png";
 
 // Import the Cinzel font
 const cinzel = Cinzel({
