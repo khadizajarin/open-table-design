@@ -3,7 +3,7 @@ import Image from 'next/image';
 import bannerImage from "@/assets/banner.png";
 import TextField from '@mui/material/TextField';
 import Button from '@mui/material/Button';
-import bannerShadow from '/assets/shadowBanner-01.png';
+// import bannerShadow from '/assets/shadowBanner-01.png';
 
 // Import the Cinzel font
 const cinzel = Cinzel({
@@ -37,13 +37,13 @@ const Banner = () => {
             <div className='flex flex-col justify-center items-center h-full text-center text-[#BCA263] w-2/5 pt-[4rem] relative'>
 
                 {/* Shadow Image Positioned to Cover Entire Container */}
-                <div className='absolute top-0 left-0 w-full h-full'>
+                {/* <div className='absolute top-0 left-0 w-full h-full'>
                     <Image 
                         src={bannerShadow}
                         className='object-cover m-0 p-0'
                         alt="Shadow"
                     />
-                </div>
+                </div> */}
 
                 <h1 className='mb-5 tracking-wider' style ={{fontFamily: ubuntu.style.fontFamily, fontSize: '1.5rem', fontWeight: '430'}}>RESERVATION</h1>
                 <h3 className='mb-8 leading-tight' style ={{fontFamily: cinzel.style.fontFamily, fontSize: '3rem', fontWeight: '700'}}>MAKE A <br/> RESERVATION</h3>
