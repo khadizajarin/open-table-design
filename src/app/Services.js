@@ -42,7 +42,7 @@ const Services = () => {
                 remaining essentially unchanged.
             </p>
 
-            <div className='flex flex-col gap-[8rem]'>
+            <div className='flex flex-col gap-[8rem] mb-[6.75rem]'>
             <Service image={card1} cardTitle={`THE DINING ROOM (restaurant)`}
             text={ <>
                 Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem <br/>

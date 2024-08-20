@@ -1,5 +1,6 @@
 import Image from 'next/image';
 import { Cinzel,Ubuntu } from 'next/font/google';
+import cardShadow from '@/assets/cardInfoshadow-01.png'
 import cardFinisher from '@/assets/CardFinisher-01.png'
 const cinzel = Cinzel({
     subsets: ['latin'],
@@ -19,7 +20,17 @@ const Service = ({image,cardTitle, text}) => {
             alt={image}
             ></Image>
 
-            <div className='h-[25rem]'>
+            <div className='h-[24.6rem] relative'>
+
+                {/* Shadow Image Positioned to Cover Entire Container */}
+                <div className='absolute'>
+                    <Image 
+                        src={cardShadow}
+                        className=''
+                        alt="Shadow"
+                    />
+                </div>
+
                 <h1 className='pb-[1.7rem] pt-[3rem] text-[#BCA263] text-[2rem] text-center'
                 style ={{fontFamily: cinzel.style.fontFamily, fontSize: '2.7rem', fontWeight: '700' }}>{cardTitle}</h1>
 

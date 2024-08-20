@@ -6,7 +6,7 @@ const TitleBar = () => {
     return (
         <div className='relative h-[10rem] w-full bg-[#032625] flex justify-center items-center overflow-hidden'>
             {/* Shadow Image Positioned to Cover Entire Container */}
-            <div className='absolute inset-0 opacity-20'>
+            <div className='absolute inset-0 '>
                 <Image 
                     src={shado}
                     className='w-full h-full object-cover'

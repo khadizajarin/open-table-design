@@ -37,7 +37,7 @@ const Banner = () => {
             <div className='flex flex-col justify-center items-center h-full text-center text-[#BCA263] w-2/5 pt-[4rem] relative'>
 
                 {/* Shadow Image Positioned to Cover Entire Container */}
-                <div className='absolute top-0 left-0 w-full h-full opacity-10'>
+                <div className='absolute top-0 left-0 w-full h-full'>
                     <Image 
                         src={bannerShadow}
                         className='object-cover m-0 p-0'
