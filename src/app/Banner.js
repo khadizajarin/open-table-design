@@ -3,7 +3,8 @@ import Image from 'next/image';
 import bannerImage from "@/assets/banner.png";
 import TextField from '@mui/material/TextField';
 import Button from '@mui/material/Button';
-import bannerShadow from '@/assets/shadowBanner-01.png';
+// import bannerShadow from '@/assets/shadowBanner-01.png';
+import bannerShadowwwwwwww from '@/assets/Shadow Banner-01.png';
 
 // Import the Cinzel font
 const cinzel = Cinzel({
@@ -39,7 +40,7 @@ const Banner = () => {
                 {/* Shadow Image Positioned to Cover Entire Container */}
                 <div className='absolute top-0 left-0 w-full h-full'>
                     <Image 
-                        src={bannerShadow}
+                        src={bannerShadowwwwwwww}
                         className='object-cover m-0 p-0'
                         alt="Shadow"
                     />
