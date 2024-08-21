@@ -2,6 +2,7 @@ import Store from "./Store";
 import Banner from "./Banner";
 import Services from "./Services";
 import Upcoming from "./Upcoming";
+import Memories from "./Memories";
 
 
 const Homepage = () => {
@@ -11,6 +12,7 @@ const Homepage = () => {
       <Services></Services>
       <Upcoming></Upcoming>
       <Store></Store>
+      <Memories></Memories>
     </>
   );
 };
