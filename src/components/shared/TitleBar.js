@@ -4,7 +4,7 @@ import shado from "@/assets/shadow nav-01.png";
 
 const TitleBar = () => {
     return (
-        <div className='relative h-[10rem] w-full bg-[#032625] flex justify-center items-center overflow-hidden'>
+        <div className='relative h-[5rem] w-full bg-[#032625] flex justify-center items-center overflow-hidden lg:h-[10rem]'>
             {/* Shadow Image Positioned to Cover Entire Container */}
             <div className='absolute inset-0 '>
                 <Image 
@@ -18,7 +18,7 @@ const TitleBar = () => {
             <div className='relative z-10'>
                 <Image 
                     src={logo}
-                    className='w-[16rem]'
+                    className='w-[10rem] md:w-[16rem]'
                     alt="Logo"
                 />
             </div>

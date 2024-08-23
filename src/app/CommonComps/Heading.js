@@ -10,8 +10,8 @@ const cinzel = Cinzel({
 const Heading = ({text}) => {
     return (
         <div 
-        className='inline-block py-6 px-10 shadow-black shadow-[10px_10px_15px_0_rgba(0,0,0,0.2)] text-center bg-[#042423] text-[#BCA263] rounded-full border-l-[0.9rem] border-r-[0.9rem] border-[#BCA263] tracking-wider' 
-        style={{ fontFamily: cinzel.style.fontFamily, fontSize: '2.3rem', fontWeight: '700' }}
+        className=' py-6 lg:px-10 px-5 shadow-black shadow-[10px_10px_15px_0_rgba(0,0,0,0.2)] text-center bg-[#042423] text-[#BCA263] rounded-full border-l-[0.9rem] border-r-[0.9rem] border-[#BCA263] tracking-wider lg:text-[2.3rem] text-[1.3rem]' 
+        style={{ fontFamily: cinzel.style.fontFamily, fontWeight: '700' }}
     >
         {text}
     </div>
