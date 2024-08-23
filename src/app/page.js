@@ -3,6 +3,7 @@ import Banner from "./Banner";
 import Services from "./Services";
 import Upcoming from "./Upcoming";
 import Memories from "./Memories";
+import Footer from "./Footer";
 
 
 const Homepage = () => {
@@ -13,6 +14,7 @@ const Homepage = () => {
       <Upcoming></Upcoming>
       <Store></Store>
       <Memories></Memories>
+      <Footer></Footer>
     </>
   );
 };

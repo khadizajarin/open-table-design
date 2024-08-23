@@ -9,7 +9,7 @@ const TitleBar = () => {
             <div className='absolute inset-0 '>
                 <Image 
                     src={shado}
-                    className='w-full h-full object-cover'
+                    className='w-full h-full object-cover opacity-50'
                     alt="Shadow"
                 />
             </div>

@@ -23,7 +23,7 @@ const Service = ({image,cardTitle, text}) => {
             <div className='h-[24.6rem] relative'>
 
                 {/* Shadow Image Positioned to Cover Entire Container */}
-                <div className='absolute'>
+                <div className='absolute opacity-30'>
                     <Image 
                         src={cardShadow}
                         className=''
@@ -38,7 +38,7 @@ const Service = ({image,cardTitle, text}) => {
                     <hr className='border-[#BCA263] w-[12rem] pb-[2.375rem]'/>
                 </div>
 
-                <p className='pb-[3rem] text-[#BCA263]  text-center px-[11.25rem] tracking-wider leading-loose'
+                <p className='pb-[2rem] text-[#BCA263]  text-center px-[11.25rem] tracking-wider leading-loose'
                 style ={{fontFamily: ubuntu.style.fontFamily, fontSize: '1.1rem', fontWeight: '400'}}>{text}</p>
 
                 <div className='flex justify-center items-center'>

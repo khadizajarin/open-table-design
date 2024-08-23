@@ -22,7 +22,7 @@ const ubuntu = Ubuntu({
 const Banner = () => {
     return (
         <div className='flex  bg-[#042423]'>
-            <div className='w-3/5'>
+            <div className='w-3/5 '>
                 <Image 
                     src={bannerImage}
                     className='w-[rem]'
@@ -41,7 +41,7 @@ const Banner = () => {
                 <div className='absolute top-0 left-0 w-full h-full'>
                     <Image 
                         src={bannerShadowwwwwwww}
-                        className='object-cover m-0 p-0'
+                        className='object-cover m-0 p-0 opacity-40'
                         alt="Shadow"
                     />
                 </div>
