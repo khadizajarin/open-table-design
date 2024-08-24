@@ -42,18 +42,18 @@ const Services = () => {
                 remaining essentially unchanged.
             </p>
 
-            <div className='flex flex-col gap-[8rem] mb-[6.75rem]'>
+            <div className='flex flex-col lg:gap-[8rem] gap-[4rem] lg:mb-[6.75rem]'>
             <Service image={card1} cardTitle={`THE DINING ROOM (restaurant)`}
             text={ <>
                 Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem<span className="hidden lg:inline"><br /></span> 
-                Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown<br/>
+                Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown<span className="hidden lg:inline"><br /></span> 
                 printer took a galley of type and scrambled it to make a type specimen book.
             </>}></Service>
 
             <Service image={card2} cardTitle={`ALL RISE (bakery))`}
             text={ <>
             Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem<span className="hidden lg:inline"><br /></span> 
-            Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown<br/>
+            Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown<span className="hidden lg:inline"><br /></span> 
             printer took a galley of type and scrambled it to make a type specimen book.
             </>}>
             </Service>
@@ -61,7 +61,7 @@ const Services = () => {
             <Service image={card3} cardTitle={`GATHER YOUR PEERS (live music & bar)`}
             text={ <>
             Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem<span className="hidden lg:inline"><br /></span> 
-            Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown<br/>
+            Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown<span className="hidden lg:inline"><br /></span> 
             printer took a galley of type and scrambled it to make a type specimen book.
             </>}>
             </Service>
@@ -69,7 +69,7 @@ const Services = () => {
             <Service image={card4} cardTitle={`HOLD COURT (private Dinning)`}
             text={ <>
             Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem<span className="hidden lg:inline"><br /></span> 
-            Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown<br/>
+            Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown<span className="hidden lg:inline"><br /></span> 
             printer took a galley of type and scrambled it to make a type specimen book.
             </>}>
             </Service>
