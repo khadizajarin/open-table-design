@@ -31,14 +31,14 @@ const Service = ({image,cardTitle, text}) => {
                     />
                 </div>
 
-                <h1 className='lg:pb-[1.7rem] pb-[0.5rem] lg:pt-[3rem] pt-[1rem] text-[#BCA263] lg:text-[2.7rem] text-[1.6rem] text-center'
+                <h1 className='lg:pb-[1.7rem] pb-[0.5rem] lg:pt-[3rem] pt-[1rem] text-[#BCA263] lg:text-[2.7rem] text-[1rem] px-[0.5rem] text-center'
                 style ={{fontFamily: cinzel.style.fontFamily, fontWeight: '700' }}>{cardTitle}</h1>
 
                 <div className='flex justify-center items-center'>
                     <hr className='border-[#BCA263] lg:w-[12rem] lg:pb-[2.375rem]'/>
                 </div>
 
-                <p className='pb-[2rem] text-[#BCA263]  text-center lg:px-[11.25rem] lg:text-[1.1rem] text-[0.6rem] tracking-wider leading-loose'
+                <p className='lg:pb-[2rem] pb-[1rem] text-[#BCA263] text-center lg:px-[11.25rem] px-[0.5rem] lg:text-[1.1rem] text-[0.6rem] tracking-wider leading-loose'
                 style ={{fontFamily: ubuntu.style.fontFamily, fontWeight: '400'}}>{text}</p>
 
                 <div className='flex justify-center items-center'>

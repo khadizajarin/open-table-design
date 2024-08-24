@@ -22,7 +22,7 @@ const ubuntu = Ubuntu({
 
 const Services = () => {
     return (
-        <div className='bg-[#0B1519] h-full flex justify-center items-center flex-col relative'>
+        <div className='bg-[#0B1519]  flex justify-center items-center flex-col relative pb-[4rem]'>
             <div className='absolute top-0 left-0 w-full h-full '>
                 <Image 
                     src={shadowImage}

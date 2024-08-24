@@ -32,62 +32,62 @@ const Memories = () => {
         <div className='bg-[#0B1519] h-full flex justify-center items-center flex-col pt-[2rem]'>
             <Heading text={'FOR THE BEST MEMORIES'} ></Heading>
 
-            <div className="pb-[4rem] mt-[5rem] bg-[#0B1519] w-[80rem]">
+            <div className="lg:pb-[4rem] pb-[1rem] lg:mt-[5rem] mt-[2rem] bg-[#0B1519] lg:w-[80rem] w-[20rem]">
                 <Marquee pauseOnHover={true} speed={50} className=''>
-                    <div className="pb-[1rem] px-[0.5rem]  w-[24rem]">
+                    <div className="pb-[1rem] px-[0.5rem] w-[9rem] lg:w-[24rem]">
                         <Image src={memory1} alt={memory1}  />
                     </div>
-                    <div className="pb-[1rem] px-[0.5rem]  w-[24rem]">
+                    <div className="pb-[1rem] px-[0.5rem] w-[9rem] lg:w-[24rem]">
                         <Image src={memory2} alt={memory2}  />
                     </div>
-                    <div className="pb-[1rem] px-[0.5rem]  w-[24rem]">
+                    <div className="pb-[1rem] px-[0.5rem] w-[9rem] lg:w-[24rem]">
                         <Image src={memory3} alt={memory3}  />
                     </div>
-                    <div className="pb-[1rem] px-[0.5rem]  w-[24rem]">
+                    <div className="pb-[1rem] px-[0.5rem] w-[9rem] lg:w-[24rem]">
                         <Image src={memory4} alt={memory4}  />
                     </div>
-                    <div className="pb-[1rem] px-[0.5rem]  w-[24rem]">
+                    <div className="pb-[1rem] px-[0.5rem] w-[9rem] lg:w-[24rem]">
                         <Image src={memory5} alt={memory5}  />
                     </div>
-                    <div className="pb-[1rem] px-[0.5rem]  w-[24rem]">
+                    <div className="pb-[1rem] px-[0.5rem] w-[9rem] lg:w-[24rem]">
                         <Image src={memory11} alt={memory11}  />
                     </div>
-                    <div className="pb-[1rem] px-[0.5rem]  w-[24rem]">
+                    <div className="pb-[1rem] px-[0.5rem] w-[9rem] lg:w-[24rem]">
                         <Image src={memory13} alt={memory11}  />
                     </div>
-                    <div className="pb-[1rem] px-[0.5rem]  w-[24rem]">
+                    <div className="pb-[1rem] px-[0.5rem] w-[9rem] lg:w-[24rem]">
                         <Image src={memory14} alt={memory11}  />
                     </div>
                 </Marquee>
 
                 <Marquee direction="right" pauseOnHover={true} speed={50}>
-                    <div className=" pb-[1rem] px-[0.5rem] w-[24rem]">
+                    <div className=" pb-[1rem] px-[0.5rem] w-[9rem] lg:w-[24rem]">
                         <Image src={memory6} alt={memory6}  />
                     </div>
-                    <div className=" pb-[1rem] px-[0.5rem] w-[24rem]">
+                    <div className=" pb-[1rem] px-[0.5rem] w-[9rem] lg:w-[24rem]">
                         <Image src={memory7} alt={memory7}  />
                     </div>
-                    <div className=" pb-[1rem] px-[0.5rem] w-[24rem]">
+                    <div className=" pb-[1rem] px-[0.5rem] w-[9rem] lg:w-[24rem]">
                         <Image src={memory8} alt={memory8}  />
                     </div>
-                    <div className=" pb-[1rem] px-[0.5rem] w-[24rem]">
+                    <div className=" pb-[1rem] px-[0.5rem] w-[9rem] lg:w-[24rem]">
                         <Image src={memory9} alt={memory9}  />
                     </div>
-                    <div className=" pb-[1rem] px-[0.5rem] w-[24rem]">
+                    <div className=" pb-[1rem] px-[0.5rem] w-[9rem] lg:w-[24rem]">
                         <Image src={memory10} alt={memory10}  />
                     </div>
-                    <div className="pb-[1rem] px-[0.5rem]  w-[24rem]">
+                    <div className="pb-[1rem] px-[0.5rem] w-[9rem] lg:w-[24rem]">
                         <Image src={memory12} alt={memory12}  />
                     </div>
-                    <div className="pb-[1rem] px-[0.5rem]  w-[24rem]">
+                    <div className="pb-[1rem] px-[0.5rem] w-[9rem] lg:w-[24rem]">
                         <Image src={memory15} alt={memory15}  />
                     </div>
                 </Marquee>
             </div>
 
-            <div className='text-[#BCA263] text-center pb-[4rem] tracking-normal leading-loose'>
-                <p style={{ fontFamily: ubuntu.style.fontFamily, fontSize: '2rem', fontWeight: '500' }}>OPEN TABLE IS FOR EVERYONE WHO COLLECTS
-                 <br/> BEAUTIFUL MOMENTS.</p>
+            <div className='text-[#BCA263] text-center pb-[4rem] tracking-normal leading-loose lg:text-[2rem]'>
+                <p style={{ fontFamily: ubuntu.style.fontFamily,fontWeight: '500' }}>OPEN TABLE IS FOR EVERYONE WHO COLLECTS
+                <span className="hidden lg:inline"><br /></span>  BEAUTIFUL MOMENTS.</p>
             </div>
         </div>
 

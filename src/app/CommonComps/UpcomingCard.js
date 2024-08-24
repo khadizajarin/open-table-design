@@ -17,16 +17,16 @@ const ubuntu = Ubuntu({
 const UpcomingCard = ({image,eventName, day,date, time, }) => {
     return (
         <div>
-            <Image className='w-[22.5rem] h-[27rem] shadow-black shadow-[1px_-1px_5px_rgba(0,0,0,0.2),3px_3px_8px_rgba(0,0,0,0.2)]'
+            <Image className='lg:w-[22.5rem] w-[16rem] lg:h-[27rem] shadow-black shadow-[1px_-1px_5px_rgba(0,0,0,0.2),3px_3px_8px_rgba(0,0,0,0.2)]'
             src={image}
             alt={image}>
             </Image>
 
-            <div className='text-[#BCA263] text-center' 
-            style ={{fontFamily: ubuntu.style.fontFamily, fontSize: '1.5rem', fontWeight: '430'}}>
-              <h1 className='pt-[3.25rem] text-[2.3rem] font-bold tracking-wide'>{eventName}</h1>
-              <p className='pt-[1.4rem] text-[1.7rem] font-light'>{day}, {date}</p>
-              <p className='pt-[0.4rem] text-[1.7rem] font-light'>Reservations {time}</p>
+            <div className='text-[#BCA263] text-center ' 
+            style ={{fontFamily: ubuntu.style.fontFamily, fontWeight: '430'}}>
+              <h1 className='lg:pt-[3.25rem] pt-[1.3rem] lg:text-[2.3rem] text-[1.8rem] font-bold tracking-wide'>{eventName}</h1>
+              <p className='lg:pt-[1.4rem] lg:text-[1.7rem] font-light'>{day}, {date}</p>
+              <p className='lg:pt-[0.4rem] lg:text-[1.7rem] font-light'>Reservations {time}</p>
             </div>
 
 

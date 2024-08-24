@@ -18,16 +18,16 @@ const Footer = () => {
         <div className='bg-[#042423] text-[#BCA263] flex flex-col justify-center items-center relative '
             style={{ fontFamily: ubuntu.style.fontFamily }}>
 
-            <div className=' absolute opacity-40'>
+            <div className='absolute opacity-40'>
                 <Image 
                     src={shadoww}
-                    className='w-[rem]'
+                    className='lg:inline hidden'
                     alt="Shadow"
                 />
             </div>
 
 
-            <div className=' z-10 mt-[5rem] pb-[4rem]'>
+            <div className=' z-10 lg:mt-[5rem] mt-[2rem] pb-[4rem]'>
                 <Image
                     src={logo}
                     className='w-[11rem]'
@@ -35,7 +35,7 @@ const Footer = () => {
                 />
             </div>
 
-            <div className="flex justify-center items-center gap-[2rem] pb-[4rem]">
+            <div className="flex lg:flex-row flex-col justify-center items-center lg:gap-[2rem] gap-[1rem] pb-[4rem]">
                 <p style={{ fontSize: '1.5rem', fontWeight: '500' }}>INSTAGRAM</p>
                 <Image src={lineIcon} className='h-[0.6rem] w-[9rem]' alt="lineIcon"/> 
                 <p style={{ fontSize: '1.5rem', fontWeight: '500' }}>FACEBOOK</p>
@@ -43,7 +43,7 @@ const Footer = () => {
                 <p style={{ fontSize: '1.5rem', fontWeight: '500' }}>PINTEREST</p>
             </div>
 
-            <div className="flex justify-center items-center gap-[4rem] pb-[4rem]">
+            <div className="flex lg:flex-row flex-col justify-center items-center lg:gap-[4rem] gap-[1rem] lg:pb-[4.4rem] pb-[2rem]">
                 <div className='text-[#BCA263] text-center ' 
                 style ={{ fontSize: '1rem', fontWeight: '430'}}>
                 <h1 className=' text-[1.8rem] font-bold tracking-wide'>OPENING HOURS</h1>
@@ -51,7 +51,7 @@ const Footer = () => {
                 <p className='pt-[0.4rem] text-[1.3rem] font-light'>Kitchen Closes At 22.00</p>
                 </div>
                 
-                <Image src={lineIcon2} className='h-[12rem] w-[1rem] ' alt="lineIcon"/>
+                <Image src={lineIcon2} className='lg:h-[12rem] h-[4rem] lg:w-[1rem] w-[0.5rem]' alt="lineIcon"/>
 
                 <div className='text-[#BCA263] text-center' 
                 style ={{ fontSize: '1rem', fontWeight: '430'}}>
@@ -60,7 +60,7 @@ const Footer = () => {
                 <p className='pt-[0.4rem] text-[1.3rem] font-light'>Dhaka, Bangladesh</p>
                 </div>
                 
-                <Image src={lineIcon2} className='h-[12rem] w-[1rem] ' alt="lineIcon"/>
+                <Image src={lineIcon2} className='lg:h-[12rem] h-[4rem] lg:w-[1rem] w-[0.5rem]' alt="lineIcon"/>
 
                 <div className='text-[#BCA263] text-center' 
                 style ={{ fontSize: '1rem', fontWeight: '430'}}>
@@ -72,7 +72,7 @@ const Footer = () => {
                
             </div>
 
-            <div className="h-[4rem] w-full text-[#042423] text-[1.2rem] font-bold bg-[#BCA263] flex justify-center items-center">
+            <div className="lg:h-[4rem] h-[3rem] w-full text-[#042423] lg:text-[1.2rem] text-[0.8rem] font-bold bg-[#BCA263] flex justify-center items-center">
                 <p>Copyright © 2024 Gearbros. All Rights Reserved</p>
             </div>
 

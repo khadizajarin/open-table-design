@@ -11,10 +11,10 @@ const Homepage = () => {
     <>
       <Banner></Banner>
       <Services></Services>
-      {/* <Upcoming></Upcoming>
+      <Upcoming></Upcoming>
       <Store></Store>
       <Memories></Memories>
-      <Footer></Footer> */}
+      <Footer></Footer>
     </>
   );
 };
