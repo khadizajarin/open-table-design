@@ -28,7 +28,7 @@ const Store = () => {
                     <Image className='z-20 lg:w-[17rem] lg:h-[16rem] h-[16rem]' src={imagee} alt="App Store"></Image>
                 </div>
 
-                <div className='text-[#BCA263] bg-[rgb(4,36,35)] flex flex-col lg:gap-[2rem] gap-[0.5rem] lg:pr-[3rem] pl-[4rem] lg:py-0 py-[0.8rem] justify-center lg:text-[1.7rem] text-[1rem] font-medium tracking-wider'>
+                <div className='text-[#BCA263] bg-[rgb(4,36,35)] flex flex-col lg:gap-[2rem] gap-[0.5rem] lg:pr-[3rem] lg:pl-[4rem] pl-[2rem] lg:py-0 py-[0.8rem] justify-center lg:text-[1.7rem] text-[1rem] font-medium tracking-wider'>
                     <p>Use this app to find our restaurant and book <span className="hidden lg:inline"><br /></span>  a reservation online.</p>
                     <p>Check all our activities here...</p>
                 </div>

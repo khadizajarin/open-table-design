@@ -46,8 +46,8 @@ const Footer = () => {
             <div className="flex lg:flex-row flex-col justify-center items-center lg:gap-[4rem] gap-[1rem] lg:pb-[4.4rem] pb-[2rem]">
                 <div className='text-[#BCA263] text-center ' 
                 style ={{ fontSize: '1rem', fontWeight: '430'}}>
-                <h1 className=' text-[1.8rem] font-bold tracking-wide'>OPENING HOURS</h1>
-                <p className='pt-[1.4rem] text-[1.3rem] font-light'>Everyday : 24 Hours.</p>
+                <h1 className='text-[1.8rem] font-bold tracking-wide'>OPENING HOURS</h1>
+                <p className='lg:pt-[1.4rem] pt-[0.7rem] text-[1.3rem] font-light'>Everyday : 24 Hours.</p>
                 <p className='pt-[0.4rem] text-[1.3rem] font-light'>Kitchen Closes At 22.00</p>
                 </div>
                 
@@ -56,7 +56,7 @@ const Footer = () => {
                 <div className='text-[#BCA263] text-center' 
                 style ={{ fontSize: '1rem', fontWeight: '430'}}>
                 <h1 className=' text-[1.8rem] font-bold tracking-wide'>ADDRESS</h1>
-                <p className='pt-[1.4rem] text-[1.3rem] font-light'>123 Omolghosh Street, Old Town</p>
+                <p className='lg:pt-[1.4rem] pt-[0.7rem] text-[1.3rem] font-light'>123 Omolghosh Street, Old Town</p>
                 <p className='pt-[0.4rem] text-[1.3rem] font-light'>Dhaka, Bangladesh</p>
                 </div>
                 
@@ -65,7 +65,7 @@ const Footer = () => {
                 <div className='text-[#BCA263] text-center' 
                 style ={{ fontSize: '1rem', fontWeight: '430'}}>
                 <h1 className=' text-[1.8rem] font-bold tracking-wide'>CONTACT US</h1>
-                <p className='pt-[1.4rem] text-[1.3rem] font-light'>+12 34 567 89</p>
+                <p className='lg:pt-[1.4rem] pt-[0.7rem] text-[1.3rem] font-light'>+12 34 567 89</p>
                 <p className='pt-[0.4rem] text-[1.3rem] font-light'>openroyal@example.com</p>
                 </div>
 
