@@ -12,14 +12,14 @@ const ubuntu = Ubuntu({
 
 const Store = () => {
     return (
-        <div className='flex justify-center bg-[#0B1519] lg:px-[6rem] lg:pb-[6rem] pb-[2rem]' style ={{fontFamily: ubuntu.style.fontFamily}}>
+        <div className='flex justify-center bg-[#0B1519] lg:px-[5rem] lg:pb-[5rem] pb-[2rem]' style ={{fontFamily: ubuntu.style.fontFamily}}>
 
             {/* Main Content */}
-            <div className='flex lg:flex-row flex-col relative shadow-black lg:shadow-[1px_1px_15px_rgba(0,0,0,0.1),10px_10px_15px_rgba(0,0,0,0.2)]'>
+            <div className='flex lg:flex-row flex-col relative shadow-black lg:shadow-[1px_1px_10px_rgba(0,0,0,0.2),5px_5px_10px_rgba(0,0,0,0.5)]'>
                 <div className='absolute'>
                     <Image 
                         src={shadow}
-                        className='object-cover lg:pl-[17rem] lg:pt-0 pt-[16rem] lg:h-[16rem] h-[27rem] opacity-30'
+                        className='object-cover lg:pl-[17rem] lg:pt-0 pt-[16rem] lg:h-[16rem] h-[27rem] opacity-20'
                         alt="Shadow"
                     />
                 </div>

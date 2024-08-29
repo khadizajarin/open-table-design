@@ -14,7 +14,7 @@ const ubuntu = Ubuntu({
 
 const Service = ({image,cardTitle, text}) => {
     return (
-        <div className='z-10 bg-[#042423] lg:w-[78rem] w-[18rem] shadow-black shadow-[2px_-2px_10px_rgba(0,0,0,0.2),10px_10px_15px_rgba(0,0,0,0.2)]'>
+        <div className='z-10 bg-[#042423] lg:w-[78rem] w-[18rem] shadow-black shadow-[1px_-1px_3px_rgba(0,0,0,0.2),1px_-1px_5px_rgba(0,0,0,0.2),10px_10px_15px_rgba(0,0,0,0.2)]'>
             <Image
             src={image}
             alt={image}
@@ -23,7 +23,7 @@ const Service = ({image,cardTitle, text}) => {
             <div className='lg:h-[24.6rem] relative'>
 
                 {/* Shadow Image Positioned to Cover Entire Container */}
-                <div className='absolute  object-cover opacity-30'>
+                <div className='absolute object-cover opacity-20'>
                     <Image 
                         src={cardShadow}
                         className='top-0 left-0 lg:w-full lg:h-full'

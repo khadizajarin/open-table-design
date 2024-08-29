@@ -22,7 +22,7 @@ const ubuntu = Ubuntu({
 
 const Services = () => {
     return (
-        <div className='bg-[#0B1519]  flex justify-center items-center flex-col relative pb-[4rem]'>
+        <div className='bg-[#0B1519] flex justify-center items-center flex-col relative pb-[1rem]'>
             <div className='absolute top-0 left-0 w-full h-full '>
                 <Image 
                     src={shadowImage}
@@ -33,8 +33,8 @@ const Services = () => {
             <div className='lg:pt-[5.75rem] pt-[2rem] lg:mb-[4.375rem] mb-[3rem]'>
                 <Heading  text={'ABOUT OUR SERVICES'}></Heading>
             </div>
-            <p className='lg:pb-[5.75rem] pb-[4rem] text-[#BCA263] lg:text-[1.5rem] text-[1rem] text-center lg:px-[11.25rem] px-[2rem] tracking-wider lg:leading-loose'
-            style ={{fontFamily: ubuntu.style.fontFamily,  fontWeight: '400'}}>
+            <p className='lg:pb-[5rem] pb-[4rem] text-[#BCA263] lg:text-[1.5rem] text-[1rem] text-center lg:px-[11.25rem] px-[2rem] tracking-wider lg:leading-loose'
+            style ={{fontFamily: ubuntu.style.fontFamily, fontWeight: '400'}}>
                 Lorem Ipsum ips simply dummy text of the printing and typesetting industry. Lorem<span className="hidden lg:inline"><br /></span> 
                 Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown<span className="hidden lg:inline"><br /></span> 
                 printer took a galley of type and scrambled it to make a type specimen book. It has<span className="hidden lg:inline"><br /></span> 

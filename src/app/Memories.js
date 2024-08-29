@@ -32,7 +32,7 @@ const Memories = () => {
         <div className='bg-[#0B1519] h-full flex justify-center items-center flex-col pt-[2rem]'>
             <Heading text={'FOR THE BEST MEMORIES'} ></Heading>
 
-            <div className="lg:pb-[4rem] pb-[1rem] lg:mt-[5rem] mt-[2rem] bg-[#0B1519] lg:w-[80rem] w-[20rem]">
+            <div className="lg:pb-[3rem] pb-[1rem] lg:mt-[5.5rem] mt-[2rem] bg-[#0B1519] lg:w-[80rem] w-[20rem]">
                 <Marquee pauseOnHover={true} speed={50} className=''>
                     <div className="pb-[1rem] px-[0.5rem] w-[9rem] lg:w-[24rem]">
                         <Image src={memory1} alt={memory1}  />

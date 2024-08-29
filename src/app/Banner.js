@@ -4,6 +4,10 @@ import bannerImage from "@/assets/banner.png";
 import TextField from '@mui/material/TextField';
 import Button from '@mui/material/Button';
 import bannerShadowwwwwwww from '@/assets/Shadow Banner-01.png';
+import InputAdornment from '@mui/material/InputAdornment';
+
+import guestPNG from '@/assets/guest-01.png';
+import timePNG from '@/assets/time.png'
 
 // Import the Cinzel font
 const cinzel = Cinzel({
@@ -20,12 +24,13 @@ const ubuntu = Ubuntu({
 const Banner = () => {
     return (
         <div className='flex flex-col lg:flex-row bg-[#042423] '>
-            <div className='lg:w-3/5'>
+            <div className="relative lg:w-3/5">
                 <Image 
                     src={bannerImage}
-                    className='w-full'
+                    className="w-full"
                     alt="Banner"
                 />
+                <div className="absolute inset-0 bg-black opacity-15"></div>
             </div>
 
             {/* Form for booking */}
@@ -35,7 +40,7 @@ const Banner = () => {
                 <div className='absolute top-0 left-0 lg:w-full lg:h-full'>
                     <Image 
                         src={bannerShadowwwwwwww}
-                        className='lg:object-cover opacity-40'
+                        className='lg:object-cover opacity-25 '
                         alt="Shadow"
                     />
                 </div>
@@ -45,15 +50,20 @@ const Banner = () => {
                 <div className='flex flex-col justify-center items-center text-[#BCA263] w-96 lg:text-[1.5rem] ' style={{ fontFamily: ubuntu.style.fontFamily,  fontWeight: '430' }}>
                     <TextField 
                         id="standard-basic" 
-                        className='lg:w-96'
-                        label="Guest." 
+                        className='lg:w-96 mb-[1.625rem]'
+                        label="Guest" 
                         variant="standard" 
                         InputLabelProps={{
-                            style: { color: '#BCA263',fontFamily: ubuntu.style.fontFamily, fontSize: '1.8rem', fontWeight: '430', marginBottom:"1.625rem" },  
+                            style: { color: '#BCA263', fontFamily: ubuntu.style.fontFamily, fontSize: '1.8rem', fontWeight: '430', marginBottom: "1.625rem" },
                         }}
                         InputProps={{
-                            style: { color: '#BCA263', fontFamily: ubuntu.style.fontFamily, fontSize: '1.5rem', fontWeight: '400', marginBottom: "1.625rem", paddingBottom: "0.9rem" }, 
-                            disableUnderline: false, 
+                            endAdornment: (
+                                <InputAdornment position="end">
+                                    <Image src={guestPNG} alt="Guest Icon" width={24} height={24} />
+                                </InputAdornment>
+                            ),
+                            style: { color: '#BCA263', fontFamily: ubuntu.style.fontFamily, fontSize: '1.5rem', fontWeight: '400', paddingBottom: "0.9rem" }, 
+                            disableUnderline: false,
                         }}
                         sx={{
                             '& .MuiInput-underline:before': {
@@ -73,17 +83,23 @@ const Banner = () => {
                             },
                         }}
                     />
+
                     <TextField 
                         id="standard-basic" 
                         className='lg:w-96 mb-[1.625rem]'
                         label="Date." 
                         variant="standard" 
                         InputLabelProps={{
-                            style: { color: '#BCA263',fontFamily: ubuntu.style.fontFamily, fontSize: '1.8rem', fontWeight: '430', marginBottom:"1.625rem" },  
+                            style: { color: '#BCA263', fontFamily: ubuntu.style.fontFamily, fontSize: '1.8rem', fontWeight: '430', marginBottom: "1.625rem" },
                         }}
                         InputProps={{
-                            style: { color: '#BCA263', fontFamily: ubuntu.style.fontFamily, fontSize: '1.5rem', fontWeight: '400',  paddingBottom: "0.9rem" }, 
-                            disableUnderline: false, 
+                            endAdornment: (
+                                <InputAdornment position="end">
+                                    <span style={{ color: '#BCA263', opacity: 0.3, fontWeight: '430',  }}>DD/MM/YYYY</span>
+                                </InputAdornment>
+                            ),
+                            style: { color: '#BCA263', fontFamily: ubuntu.style.fontFamily, fontSize: '1.5rem', fontWeight: '400', paddingBottom: "0.9rem" }, 
+                            disableUnderline: false,
                         }}
                         sx={{
                             '& .MuiInput-underline:before': {
@@ -112,8 +128,13 @@ const Banner = () => {
                             style: { color: '#BCA263',fontFamily: ubuntu.style.fontFamily, fontSize: '1.8rem', fontWeight: '430', marginBottom:"1.625rem" }, 
                         }}
                         InputProps={{
-                            style: { color: '#BCA263', fontFamily: ubuntu.style.fontFamily, fontSize: '1.5rem', fontWeight: '400',  paddingBottom: "0.9rem" }, 
-                            disableUnderline: false, 
+                            endAdornment: (
+                                <InputAdornment position="end">
+                                    <Image src={timePNG} alt="Guest Icon" width={24} height={24} />
+                                </InputAdornment>
+                            ),
+                            style: { color: '#BCA263', fontFamily: ubuntu.style.fontFamily, fontSize: '1.5rem', fontWeight: '400', paddingBottom: "0.9rem" }, 
+                            disableUnderline: false,
                         }}
                         sx={{
                             '& .MuiInput-underline:before': {

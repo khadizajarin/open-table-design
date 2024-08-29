@@ -18,7 +18,7 @@ const Footer = () => {
         <div className='bg-[#042423] text-[#BCA263] flex flex-col justify-center items-center relative '
             style={{ fontFamily: ubuntu.style.fontFamily }}>
 
-            <div className='absolute opacity-40'>
+            <div className='absolute opacity-20'>
                 <Image 
                     src={shadoww}
                     className='lg:inline hidden'

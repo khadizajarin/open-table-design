@@ -25,7 +25,7 @@ const UpcomingCard = ({image,eventName, day,date, time, }) => {
             <div className='text-[#BCA263] text-center ' 
             style ={{fontFamily: ubuntu.style.fontFamily, fontWeight: '430'}}>
               <h1 className='lg:pt-[3.25rem] pt-[1.3rem] lg:text-[2.3rem] text-[1.8rem] font-bold tracking-wide'>{eventName}</h1>
-              <p className='lg:pt-[1.4rem] lg:text-[1.7rem] font-light'>{day}, {date}</p>
+              <p className='lg:pt-[1.2rem] lg:text-[1.7rem] font-light'>{day}, {date}</p>
               <p className='lg:pt-[0.4rem] lg:text-[1.7rem] font-light'>Reservations {time}</p>
             </div>
 
